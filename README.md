@@ -3,6 +3,8 @@
 
 ## Heroes of Pymoli - Background
 
+![](Images/Fantasy.jpg)
+
 After landing a job as Lead Analyst for an independent gaming company, you've been assigned the task of analyzing the data for their most recent fantasy game Heroes of Pymoli.
 
 Like many others in its genre, the game is free-to-play, but players are encouraged to purchase optional items that enhance their playing experience. As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
@@ -24,6 +26,7 @@ player_count
 player_count_table = pd.DataFrame({"Total Players": [player_count]})
 player_count_table
 ```
+![](Images/Player%20Count.png)
 
 #### Purchasing Analysis (Total)
 * Number of Unique Items
@@ -56,6 +59,7 @@ purchasing_analysis_table["Average Price"] = purchasing_analysis_table["Average 
 purchasing_analysis_table["Total Revenue"] = purchasing_analysis_table["Total Revenue"].map("${0:,.2f}".format)
 purchasing_analysis_table
 ```
+![](Images/Purchasing%20Anaysis%20(Total).png)
 
 #### Gender Demographics
 * Percentage and Count of Male Players
@@ -92,6 +96,7 @@ gender_demographics_table = gender_demographics_table.set_index("Gender")
 gender_demographics_table.index.name = None
 gender_demographics_table
 ```
+![](Images/Gender%20Demographics.png)
 
 #### Purchasing Analysis (Gender)
 * The below each broken by gender
@@ -156,6 +161,7 @@ gender_purchasing_analysis_table = gender_purchasing_analysis_table.set_index("G
 gender_purchasing_analysis_table.index.name = None
 gender_purchasing_analysis_table
 ```
+![](Images/Purchasing%20Analysis%20(Gender).png)
 
 #### Age Demographics
 * The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.)
@@ -194,6 +200,7 @@ age_demographics_table["Percentage of Players"] = age_demographics_table["Percen
 age_demographics_table.index.name = None
 age_demographics_table
 ```
+![](Images/Age%20Demographics.png)
 
 #### Purchasing Analysis (Age)
 * The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.)
@@ -235,6 +242,7 @@ age_purchasing_analysis_table["Total Purchase Value"] = age_purchasing_analysis_
 age_purchasing_analysis_table["Avg Total Purchase per Person"] = age_purchasing_analysis_table["Avg Total Purchase per Person"].map("${0:,.2f}".format)
 age_purchasing_analysis_table
 ```
+![](Images/Purchasing%20Analysis%20(Age).png)
 
 #### Top Spenders
 * Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
@@ -268,6 +276,7 @@ sort_top_spenders["Average Purchase Price"] = sort_top_spenders["Average Purchas
 sort_top_spenders["Total Purchase Value"] = sort_top_spenders["Total Purchase Value"].astype(float).map("${:,.2f}".format)
 sort_top_spenders
 ```
+![](Images/Top%20Spenders.png)
 
 #### Most Popular Items
 * Identify the 5 most popular items by purchase count, then list (in a table):
@@ -305,6 +314,7 @@ popular_items_formatted["Item Price"] = popular_items_formatted["Item Price"].as
 popular_items_formatted["Total Purchase Value"] = popular_items_formatted["Total Purchase Value"].astype(float).map("${:,.2f}".format)
 popular_items_formatted
 ```
+![](Images/Most%20Popular%20Items.png)
 
 #### Most Profitable Items
 * Identify the 5 most profitable items by total purchase value, then list (in a table):
@@ -320,6 +330,7 @@ popular_items_formatted["Item Price"] = popular_items_formatted["Item Price"].as
 popular_items_formatted["Total Purchase Value"] = popular_items_formatted["Total Purchase Value"].astype(float).map("${:,.2f}".format)
 popular_items_formatted
 ```
+![](Images/Most%20Profitable%20Items.png)
 
 ## Observable Trends
 
