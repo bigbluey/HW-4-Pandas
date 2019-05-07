@@ -14,7 +14,7 @@ Like many others in its genre, the game is free-to-play, but players are encoura
 
 The final report should include each of the following:
 
-#### Player Count
+### Player Count
 * Total Number of Players
 
 ```python
@@ -28,7 +28,7 @@ player_count_table
 ```
 ![](Images/Player%20Count.png)
 
-#### Purchasing Analysis (Total)
+### Purchasing Analysis (Total)
 * Number of Unique Items
 * Average Purchase Price
 * Total Number of Purchases
@@ -61,7 +61,7 @@ purchasing_analysis_table
 ```
 ![](Images/Purchasing%20Anaysis%20(Total).png)
 
-#### Gender Demographics
+### Gender Demographics
 * Percentage and Count of Male Players
 * Percentage and Count of Female Players
 * Percentage and Count of Other / Non-Disclosed
@@ -98,7 +98,7 @@ gender_demographics_table
 ```
 ![](Images/Gender%20Demographics.png)
 
-#### Purchasing Analysis (Gender)
+### Purchasing Analysis (Gender)
 * The below each broken by gender
   * Purchase Count
   * Average Purchase Price
@@ -163,7 +163,7 @@ gender_purchasing_analysis_table
 ```
 ![](Images/Purchasing%20Analysis%20(Gender).png)
 
-#### Age Demographics
+### Age Demographics
 * The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.)
   * Total Count
   * Percentage of Players
@@ -202,7 +202,7 @@ age_demographics_table
 ```
 ![](Images/Age%20Demographics.png)
 
-#### Purchasing Analysis (Age)
+### Purchasing Analysis (Age)
 * The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.)
   * Purchase Count
   * Average Purchase Price
@@ -244,7 +244,7 @@ age_purchasing_analysis_table
 ```
 ![](Images/Purchasing%20Analysis%20(Age).png)
 
-#### Top Spenders
+### Top Spenders
 * Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
   * SN
   * Purchase Count
@@ -278,7 +278,7 @@ sort_top_spenders
 ```
 ![](Images/Top%20Spenders.png)
 
-#### Most Popular Items
+### Most Popular Items
 * Identify the 5 most popular items by purchase count, then list (in a table):
   * Item ID
   * Item Name
@@ -316,7 +316,7 @@ popular_items_formatted
 ```
 ![](Images/Most%20Popular%20Items.png)
 
-#### Most Profitable Items
+### Most Profitable Items
 * Identify the 5 most profitable items by total purchase value, then list (in a table):
   * Item ID
   * Item Name
