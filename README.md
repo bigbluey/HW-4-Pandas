@@ -15,6 +15,16 @@ The final report should include each of the following:
 #### Player Count
 * Total Number of Players
 
+```python
+# Total Number of Players
+player_count = len(purchase_data["SN"].unique())
+player_count
+
+# Create Summary DataFrame
+player_count_table = pd.DataFrame({"Total Players": [player_count]})
+player_count_table
+```
+
 #### Purchasing Analysis (Total)
 * Number of Unique Items
 * Average Purchase Price
